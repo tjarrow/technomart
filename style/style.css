@@ -87,6 +87,7 @@ box-shadow: 0 5px 0 0 #b52933;
 .search-form {
   width: 290px;
   position: relative;
+  padding-left: 70px;
 }
 
 input {
@@ -109,7 +110,7 @@ input {
 .search-form label {
   position: absolute;
   top: 12px;
-  left: 17px;
+  left: 87px;
   z-index: 20;
   width: 20px;
   height: 20px;
