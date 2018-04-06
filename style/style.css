@@ -63,6 +63,9 @@ background-color: #293449;
   width: 150px;
 }
 
+.logo:hover {
+}
+
 .logo a {
   display: inline-block;
 width: 165px;
@@ -154,23 +157,31 @@ input {
 
 .buckets{
   position: relative;
-float: left;
-width: 100px;
-padding: 12px 0 12px 50px;
-font-size: 17px;
-line-height: 18px;
-font-weight: 400;
-font-style: normal;
-font-family: "Cuprum","Arial",sans-serif;
-text-decoration: none;
-text-align: left;
-color: #fff;
-background-color: #293449;
+  float: left;
+  width: 100px;
+  padding: 12px 0 12px 50px;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Cuprum","Arial",sans-serif;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  background-color: #293449;
+}
+
+.search-form:hover, .bookmarks:hover, .buckets:hover {
+  background: #1a222f;
 }
 
 .buckets::before {
   background: url(../img/cart-icon.png) no-repeat;
   left: 20px;
+}
+
+.buckets:hover::before {
+
 }
 
 .order {
@@ -183,6 +194,11 @@ background-color: #293449;
   text-decoration: none;
   color: #fff;
   background: #63a63e;
+}
+
+.order:hover {
+  background:  #72c743;
+
 }
 
 nav {
@@ -206,6 +222,11 @@ nav ul {
   margin: 0;
   height: 30px;
     line-height: 30px;
+}
+
+.top-menu li:hover {
+  background: #1a222f;
+  cursor: pointer;
 }
 
 .top-menu a {
@@ -331,7 +352,8 @@ font-weight: 400;
 
 
 .offer {
-  position: relative;
+    position: relative;
+    cursor: pointer;
     display: inline-block;
     width: 300px;
     height: 123px;
